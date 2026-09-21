@@ -1,0 +1,284 @@
+{
+  "generated": "2026-09-21",
+  "scope": "United States commercial drone package delivery, drone hubs/ports/PADDCs, community impacts, local land-use actions, state law, FAA/NEPA actions, litigation and administrative challenges.",
+  "events": [
+    {
+      "id": "FL-LAW-2026-09-21",
+      "date": "2026-09-21",
+      "jurisdiction": "Florida",
+      "state": "FL",
+      "operator": "Multiple",
+      "category": "State law",
+      "issue_tags": [
+        "preemption",
+        "zoning",
+        "drone ports",
+        "local authority"
+      ],
+      "title": "Florida drone-delivery preemption framework confirmed as current law",
+      "summary": "Florida Statutes §330.41 places broad UAS regulatory authority at the state level and limits local ordinances affecting drone delivery services and drone-port siting, while preserving generally applicable setbacks/landscaping and certain nuisance or illegal-act ordinances.",
+      "status": "Current law",
+      "source_type": "Primary law",
+      "source_name": "Florida Senate, 2026 Florida Statutes §330.41",
+      "source_url": "https://www.flsenate.gov/Laws/Statutes/2026/330.41",
+      "verified": true,
+      "baseline": true
+    },
+    {
+      "id": "CT-NORTHHAVEN-2026-09-18",
+      "date": "2026-09-18",
+      "jurisdiction": "North Haven",
+      "state": "CT",
+      "operator": "Amazon Prime Air",
+      "category": "Local approval / environmental review",
+      "issue_tags": [
+        "zoning",
+        "PADDC",
+        "state review",
+        "FAA",
+        "community process"
+      ],
+      "title": "North Haven Prime Air center advances into state/federal review",
+      "summary": "A Prime Air Drone Delivery Center proposed at 409 Washington Ave. had received local Planning and Zoning Commission approval; Connecticut environmental review was underway as part of the FAA process.",
+      "status": "Pending state/federal review",
+      "source_type": "Local reporting",
+      "source_name": "CT Insider / New Haven Register",
+      "source_url": "https://www.ctinsider.com/recordjournal/news/article/amazon-drone-delivery-north-haven-faa-ct-22436786.php",
+      "verified": true
+    },
+    {
+      "id": "MA-WESTBORO-2026-09-17",
+      "date": "2026-09-17",
+      "jurisdiction": "Westborough area",
+      "state": "MA",
+      "operator": "Amazon Prime Air",
+      "category": "Community concern / proposed expansion",
+      "issue_tags": [
+        "noise",
+        "community concern",
+        "local leaders",
+        "expansion"
+      ],
+      "title": "Residents raise concerns as Amazon pursues Central Massachusetts expansion",
+      "summary": "Amazon was meeting with local leaders and pursuing regulatory approvals for a proposed Prime Air expansion near Westborough; residents publicly raised concerns about the planned service.",
+      "status": "Proposed / under review",
+      "source_type": "Local reporting",
+      "source_name": "CBS Boston",
+      "source_url": "https://www.cbsnews.com/boston/news/amazon-drone-delivery-westboro-mass/",
+      "verified": true
+    },
+    {
+      "id": "US-AMAZON-2026-08-19",
+      "date": "2026-08-19",
+      "jurisdiction": "United States",
+      "state": "US",
+      "operator": "Amazon Prime Air",
+      "category": "Industry expansion",
+      "issue_tags": [
+        "expansion",
+        "local approval",
+        "FAA approval",
+        "scale"
+      ],
+      "title": "Amazon announces expansion toward nearly 500 U.S. cities and towns",
+      "summary": "Amazon announced plans to expand Prime Air to nearly 500 U.S. cities and towns by the end of 2026, increasing the number of jurisdictions likely to face siting, public-engagement and land-use questions.",
+      "status": "Expansion announced",
+      "source_type": "Company announcement",
+      "source_name": "Amazon",
+      "source_url": "https://www.aboutamazon.com/news/transportation/amazon-prime-air-drone-delivery-expansion",
+      "verified": true
+    },
+    {
+      "id": "GA-ATLANTA-WING-2026-08-18",
+      "date": "2026-08-18",
+      "jurisdiction": "Atlanta metropolitan area",
+      "state": "GA",
+      "operator": "Wing",
+      "category": "FAA / NEPA",
+      "issue_tags": [
+        "FAA",
+        "NEPA",
+        "FONSI",
+        "commercial zoning"
+      ],
+      "title": "FAA completes Wing Atlanta environmental review",
+      "summary": "FAA signed a Finding of No Significant Impact/Record of Decision for Wing package-delivery operations in the Atlanta metropolitan area.",
+      "status": "FAA environmental review completed",
+      "source_type": "Federal agency",
+      "source_name": "FAA Drone Operations Environmental Review",
+      "source_url": "https://www.faa.gov/uas/advanced_operations/nepa_and_drones",
+      "verified": true
+    },
+    {
+      "id": "TX-HOUSTON-WING-2026-08-13",
+      "date": "2026-08-13",
+      "jurisdiction": "Houston metropolitan area",
+      "state": "TX",
+      "operator": "Wing",
+      "category": "FAA / NEPA",
+      "issue_tags": [
+        "FAA",
+        "NEPA",
+        "FONSI",
+        "nest locations"
+      ],
+      "title": "FAA completes Wing Houston environmental review",
+      "summary": "FAA signed a Finding of No Significant Impact/Record of Decision for Wing operations in Houston, where the proposal contemplated up to 75 commercially zoned nest locations.",
+      "status": "FAA environmental review completed",
+      "source_type": "Federal agency",
+      "source_name": "FAA Drone Operations Environmental Review",
+      "source_url": "https://www.faa.gov/uas/advanced_operations/nepa_and_drones",
+      "verified": true
+    },
+    {
+      "id": "TX-WYLIE-WING-2026-08-11",
+      "date": "2026-08-11",
+      "jurisdiction": "Wylie",
+      "state": "TX",
+      "operator": "Wing",
+      "category": "Zoning / public hearing",
+      "issue_tags": [
+        "special use permit",
+        "zoning",
+        "public hearing",
+        "local approval"
+      ],
+      "title": "Wylie considers special-use zoning for Wing drone delivery",
+      "summary": "The Wylie City Council held a public hearing on a proposed Commercial Corridor Special Use Permit for a Wing drone-delivery service at 707 Cooper Drive.",
+      "status": "Public hearing held",
+      "source_type": "Municipal meeting record",
+      "source_name": "City of Wylie council meeting",
+      "source_url": "https://wylietx.new.swagit.com/videos/395881",
+      "verified": true
+    },
+    {
+      "id": "US-FAA-PEA-2026-07-28",
+      "date": "2026-07-28",
+      "jurisdiction": "United States",
+      "state": "US",
+      "operator": "Multiple",
+      "category": "FAA / NEPA",
+      "issue_tags": [
+        "programmatic environmental assessment",
+        "NEPA",
+        "noise",
+        "national framework"
+      ],
+      "title": "FAA signs national drone package-delivery PEA FONSI/ROD",
+      "summary": "FAA completed its national Programmatic Environmental Assessment for drone package delivery and signed a FONSI/ROD. Individual proposals may still require project- or operation-specific environmental review.",
+      "status": "Final",
+      "source_type": "Federal agency",
+      "source_name": "FAA Drone Operations Environmental Review",
+      "source_url": "https://www.faa.gov/uas/advanced_operations/nepa_and_drones",
+      "verified": true
+    },
+    {
+      "id": "WA-REDMOND-2026-07-21",
+      "date": "2026-07-21",
+      "jurisdiction": "Redmond",
+      "state": "WA",
+      "operator": "Multiple",
+      "category": "Local ordinance / interim control",
+      "issue_tags": [
+        "drone ports",
+        "interim official control",
+        "zoning",
+        "land use"
+      ],
+      "title": "Redmond affirms interim controls on commercial drone-port land uses",
+      "summary": "Redmond adopted Ordinance 3265 affirming its interim official control while permanent commercial drone-port regulations are developed through a public process.",
+      "status": "Interim control in effect",
+      "source_type": "Municipal government",
+      "source_name": "City of Redmond",
+      "source_url": "https://wa-redmond-testing.civicplus.com/2538/Drone-Port-Land-Uses",
+      "verified": true
+    },
+    {
+      "id": "MI-AUBURNHILLS-2026-06-23",
+      "date": "2026-06-23",
+      "jurisdiction": "Auburn Hills",
+      "state": "MI",
+      "operator": "Amazon Prime Air",
+      "category": "Community complaints",
+      "issue_tags": [
+        "noise",
+        "privacy",
+        "safety",
+        "flight frequency",
+        "complaints"
+      ],
+      "title": "Auburn Hills documents resident concerns over nearby Prime Air service",
+      "summary": "The City reports resident questions and concerns about noise, privacy, safety and flight frequency associated with Prime Air flights originating nearby, and says it has raised those concerns with Amazon and the FAA.",
+      "status": "Active community concern",
+      "source_type": "Municipal government",
+      "source_name": "City of Auburn Hills",
+      "source_url": "https://www.auburnhills.org/drone-delivery/",
+      "verified": true
+    },
+    {
+      "id": "FL-AMAZON-2026-06-01",
+      "date": "2026-06-01",
+      "jurisdiction": "Multiple Florida locations",
+      "state": "FL",
+      "operator": "Amazon Prime Air",
+      "category": "FAA / NEPA",
+      "issue_tags": [
+        "FAA",
+        "NEPA",
+        "FONSI",
+        "PADDC",
+        "statewide expansion"
+      ],
+      "title": "FAA completes environmental review for six Florida Prime Air centers",
+      "summary": "FAA signed a FONSI/ROD for six new Prime Air Drone Delivery Centers in Florida, with proposed operations of up to 1,000 MK30 flights per operating day from each PADDC.",
+      "status": "FAA environmental review completed",
+      "source_type": "Federal agency",
+      "source_name": "FAA Drone Operations Environmental Review",
+      "source_url": "https://www.faa.gov/uas/advanced_operations/nepa_and_drones",
+      "verified": true
+    },
+    {
+      "id": "TX-RICHARDSON-2026-03-13",
+      "date": "2026-03-13",
+      "jurisdiction": "Richardson",
+      "state": "TX",
+      "operator": "Amazon Prime Air",
+      "category": "Community complaints / operational response",
+      "issue_tags": [
+        "noise",
+        "flight paths",
+        "community feedback",
+        "route changes"
+      ],
+      "title": "Richardson reports operational changes after drone-noise and flight-path concerns",
+      "summary": "Following resident and city feedback, Amazon reported route adjustments, reduced overflight of a greenway and higher outbound altitudes. The City identifies frequent noise and flight paths as community concerns.",
+      "status": "Operational mitigations underway",
+      "source_type": "Municipal government",
+      "source_name": "City of Richardson",
+      "source_url": "https://www.cor.net/Home/Components/News/News/8590/73?npage=51",
+      "verified": true
+    },
+    {
+      "id": "TX-AMAZON-2026-02-05",
+      "date": "2026-02-05",
+      "jurisdiction": "Multiple Texas metropolitan areas",
+      "state": "TX",
+      "operator": "Amazon Prime Air",
+      "category": "FAA / NEPA",
+      "issue_tags": [
+        "FAA",
+        "NEPA",
+        "FONSI",
+        "PADDC",
+        "Texas"
+      ],
+      "title": "FAA signs decision covering 22 Texas Prime Air delivery centers",
+      "summary": "FAA signed a FONSI/ROD for Prime Air operations from 22 PADDCs throughout Texas, including major metropolitan areas.",
+      "status": "FAA environmental review completed",
+      "source_type": "Federal agency",
+      "source_name": "FAA Drone Operations Environmental Review",
+      "source_url": "https://www.faa.gov/uas/advanced_operations/nepa_and_drones",
+      "verified": true
+    }
+  ]
+}
