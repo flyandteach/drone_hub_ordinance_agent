@@ -87,4 +87,5 @@ Promise.all([fetch('data/events.json').then(r=>r.json()),fetch('data/meta.json')
  ['q','category','state','operator'].forEach(id=>document.getElementById(id).addEventListener(id==='q'?'input':'change',render));render();
 }).catch(err=>{document.getElementById('rows').innerHTML='<tr><td colspan="8">Dashboard data could not be loaded: '+esc(err)+'</td></tr>'});
 </script>
-</body></html>
+</body><!-- Pages redeploy trigger: 2026-09-21 -->
+</html>
