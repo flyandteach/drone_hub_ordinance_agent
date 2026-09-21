@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Drone Delivery Community & Regulatory Monitor</title>
+<style>
+:root{--ink:#18232f;--muted:#667586;--line:#d9e1e8;--panel:#f6f8fa;--accent:#245c7c;--accent2:#2f7d5c;--warn:#8c5d11}
+*{box-sizing:border-box}body{margin:0;font-family:Inter,Segoe UI,Arial,sans-serif;color:var(--ink);background:white}
+header{background:linear-gradient(135deg,#17384d,#245c7c);color:white;padding:36px 24px}
+.wrap{max-width:1280px;margin:auto}.eyebrow{font-size:.78rem;letter-spacing:.12em;text-transform:uppercase;opacity:.8}
+h1{margin:.35rem 0 .55rem;font-size:clamp(1.9rem,4vw,3rem)}header p{max-width:860px;margin:0;line-height:1.5;opacity:.94}
+main{padding:24px}.cards{display:grid;grid-template-columns:repeat(5,minmax(140px,1fr));gap:12px;margin:0 0 22px}
+.card{border:1px solid var(--line);border-radius:12px;padding:16px;background:white}.card .n{font-size:1.8rem;font-weight:700}.card .l{font-size:.8rem;color:var(--muted);margin-top:4px}
+.notice{border-left:4px solid var(--warn);background:#fff9ee;padding:12px 14px;margin:0 0 20px;line-height:1.45}
+.controls{display:grid;grid-template-columns:2fr repeat(3,1fr);gap:10px;margin-bottom:14px}
+input,select{width:100%;padding:10px 11px;border:1px solid var(--line);border-radius:8px;background:white;color:var(--ink)}
+table{width:100%;border-collapse:collapse;font-size:.9rem}th{text-align:left;background:var(--panel);position:sticky;top:0}th,td{padding:11px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+tbody tr:hover{background:#fbfcfd}.tag{display:inline-block;border:1px solid var(--line);border-radius:999px;padding:2px 7px;margin:2px 3px 2px 0;font-size:.72rem;color:#405161}
+.status{font-weight:600}.source a{color:var(--accent);text-decoration:none}.source a:hover{text-decoration:underline}
+section{margin-top:28px}.method{display:grid;grid-template-columns:1.2fr 1fr;gap:20px}.box{background:var(--panel);border-radius:12px;padding:16px;line-height:1.55}
+footer{padding:28px 24px;color:var(--muted);font-size:.82rem;border-top:1px solid var(--line);margin-top:30px}
+@media(max-width:900px){.cards{grid-template-columns:repeat(2,1fr)}.controls{grid-template-columns:1fr 1fr}.method{grid-template-columns:1fr}.tablewrap{overflow:auto}table{min-width:980px}}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+<div class="eyebrow">Monthly monitoring dashboard</div>
+<h1>Drone Delivery Community & Regulatory Monitor</h1>
+<p>Tracks commercial drone-delivery hubs and operations, community complaints, zoning and land-use actions, state law, FAA/NEPA activity, and verified litigation or administrative challenges.</p>
+</div></header>
+<main class="wrap">
+<div class="cards">
+<div class="card"><div class="n" id="total">–</div><div class="l">Tracked developments</div></div>
+<div class="card"><div class="n" id="jurisdictions">–</div><div class="l">Jurisdictions / regions</div></div>
+<div class="card"><div class="n" id="local">–</div><div class="l">Local/community actions</div></div>
+<div class="card"><div class="n" id="federal">–</div><div class="l">FAA / NEPA actions</div></div>
+<div class="card"><div class="n" id="litigation">0</div><div class="l">Verified active litigation</div></div>
+</div>
+<div class="notice" id="litigationNote">Loading litigation status…</div>
+<div class="controls">
+<input id="q" placeholder="Search jurisdiction, issue, operator, summary…">
+<select id="category"><option value="">All categories</option></select>
+<select id="state"><option value="">All states</option></select>
+<select id="operator"><option value="">All operators</option></select>
+</div>
+<div class="tablewrap">
+<table>
+<thead><tr><th>Date</th><th>Jurisdiction</th><th>Operator</th><th>Category</th><th>Development</th><th>Status</th><th>Issues</th><th>Source</th></tr></thead>
+<tbody id="rows"></tbody>
+</table>
+</div>
+<section class="method">
+<div class="box"><strong>Monitoring scope</strong><p id="scope"></p><strong>Monthly emphasis</strong><div id="focus"></div></div>
+<div class="box"><strong>Verification method</strong><p id="methodology"></p><strong>Last updated</strong><p id="updated"></p></div>
+</section>
+</main>
+<footer><div class="wrap">Research dashboard maintained in the <strong>drone_hub_ordinance_agent</strong> repository. Records are informational research entries and should be checked against the linked source before legal or regulatory reliance.</div></footer>
+<script>
+let events=[],meta={};
+const esc=s=>String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[m]));
+function fill(id, values){const el=document.getElementById(id);[...new Set(values)].sort().forEach(v=>{const o=document.createElement('option');o.value=v;o.textContent=v;el.appendChild(o)})}
+function render(){
+ const q=document.getElementById('q').value.toLowerCase(),c=document.getElementById('category').value,s=document.getElementById('state').value,o=document.getElementById('operator').value;
+ const filtered=events.filter(e=>{const blob=JSON.stringify(e).toLowerCase();return(!q||blob.includes(q))&&(!c||e.category===c)&&(!s||e.state===s)&&(!o||e.operator===o)});
+ document.getElementById('rows').innerHTML=filtered.map(e=>`<tr>
+ <td>${esc(e.date)}</td><td><strong>${esc(e.jurisdiction)}</strong><br><span class="tag">${esc(e.state)}</span></td>
+ <td>${esc(e.operator)}</td><td>${esc(e.category)}</td>
+ <td><strong>${esc(e.title)}</strong><br><span style="color:#667586">${esc(e.summary)}</span></td>
+ <td class="status">${esc(e.status)}</td>
+ <td>${(e.issue_tags||[]).map(t=>`<span class="tag">${esc(t)}</span>`).join('')}</td>
+ <td class="source"><a href="${esc(e.source_url)}" target="_blank" rel="noopener">${esc(e.source_name)}</a><br><small>${esc(e.source_type)}</small></td>
+ </tr>`).join('');
+}
+Promise.all([fetch('docs/data/events.json').then(r=>r.json()),fetch('docs/data/meta.json').then(r=>r.json())]).then(([d,m])=>{
+ events=d.events.sort((a,b)=>b.date.localeCompare(a.date));meta=m;
+ document.getElementById('total').textContent=events.length;
+ document.getElementById('jurisdictions').textContent=new Set(events.map(e=>e.jurisdiction)).size;
+ document.getElementById('local').textContent=events.filter(e=>/Local|Community|Zoning/.test(e.category)).length;
+ document.getElementById('federal').textContent=events.filter(e=>e.category==='FAA / NEPA').length;
+ document.getElementById('litigationNote').textContent=meta.litigation_status;
+ document.getElementById('scope').textContent=d.scope;
+ document.getElementById('methodology').textContent=meta.methodology;
+ document.getElementById('updated').textContent=meta.last_updated+' — '+meta.edition;
+ document.getElementById('focus').innerHTML=meta.next_focus.map(x=>'<span class="tag">'+esc(x)+'</span>').join(' ');
+ fill('category',events.map(e=>e.category));fill('state',events.map(e=>e.state));fill('operator',events.map(e=>e.operator));
+ ['q','category','state','operator'].forEach(id=>document.getElementById(id).addEventListener(id==='q'?'input':'change',render));render();
+}).catch(err=>{document.getElementById('rows').innerHTML='<tr><td colspan="8">Dashboard data could not be loaded: '+esc(err)+'</td></tr>'});
+</script>
+</body><!-- Pages redeploy trigger: 2026-09-21 -->
+</html>
