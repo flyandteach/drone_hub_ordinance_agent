@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-21",
+  "generated": "2026-10-01",
   "scope": "United States commercial drone package delivery, drone hubs/ports/PADDCs, community impacts, local land-use actions, state law, FAA/NEPA actions, litigation and administrative challenges.",
   "events": [
     {
@@ -278,6 +278,166 @@
       "source_type": "Federal agency",
       "source_name": "FAA Drone Operations Environmental Review",
       "source_url": "https://www.faa.gov/uas/advanced_operations/nepa_and_drones",
+      "verified": true
+    },
+    {
+      "id": "US-PEA-LITIGATION-2026-09-28",
+      "date": "2026-09-28",
+      "jurisdiction": "United States / Second Circuit",
+      "state": "US",
+      "operator": "Multiple",
+      "category": "Litigation / FAA / NEPA",
+      "issue_tags": [
+        "litigation",
+        "NEPA",
+        "programmatic environmental assessment",
+        "noise",
+        "safety",
+        "environmental impacts"
+      ],
+      "title": "Fifteen states and Harris County challenge FAA national drone-delivery environmental review",
+      "summary": "A coalition of 15 states and Harris County, Texas filed a petition for review in the U.S. Court of Appeals for the Second Circuit challenging the FAA's July 28, 2026 Final Programmatic Environmental Assessment, FONSI and Record of Decision for commercial drone package delivery. The coalition alleges the FAA failed to adequately evaluate reasonably foreseeable environmental and safety consequences of expanded operations.",
+      "status": "Active federal appellate challenge",
+      "source_type": "State attorney general / primary legal announcement",
+      "source_name": "California Department of Justice, Office of the Attorney General",
+      "source_url": "https://www.oag.ca.gov/news/press-releases/attorney-general-bonta-sues-trump-administration-over-flawed-environmental",
+      "verified": true
+    },
+    {
+      "id": "US-DOORDASH-AIR-2026-09-30",
+      "date": "2026-09-30",
+      "jurisdiction": "Northern California",
+      "state": "CA",
+      "operator": "DoorDash Air",
+      "category": "Industry expansion",
+      "issue_tags": [
+        "Part 135",
+        "new operator",
+        "Northern California",
+        "ground infrastructure",
+        "noise"
+      ],
+      "title": "DoorDash Air unveils purpose-built delivery system and Northern California pilot",
+      "summary": "DoorDash unveiled its in-house autonomous delivery aircraft and end-to-end ground infrastructure and said pilot deliveries will begin in Northern California with restaurant partners including Chipotle and Popeyes. DoorDash Labs had received FAA Part 135 air-carrier certification in July 2026.",
+      "status": "Pilot announced; specific city/start date not yet identified",
+      "source_type": "Company announcement",
+      "source_name": "DoorDash",
+      "source_url": "https://about.doordash.com/en-ca/news/doordash-drone-delivery",
+      "verified": true
+    },
+    {
+      "id": "AZ-GILBERT-2026-09-15",
+      "date": "2026-09-15",
+      "jurisdiction": "Gilbert",
+      "state": "AZ",
+      "operator": "Multiple",
+      "category": "Local ordinance / zoning",
+      "issue_tags": [
+        "zoning",
+        "drone docking stations",
+        "dropboxes",
+        "setbacks",
+        "local authority"
+      ],
+      "title": "Gilbert adopts zoning amendment for commercial drone-delivery infrastructure",
+      "summary": "Gilbert adopted Ordinance No. 3000 amending its Land Development Code for unmanned aircraft and commercial drone-delivery systems. The council record describes a ground-infrastructure approach focused on drone docking stations and dropboxes, reflecting limits on municipal authority over aircraft operations.",
+      "status": "Ordinance adopted",
+      "source_type": "Municipal meeting record / legal notice",
+      "source_name": "Gilbert Town Council, Ordinance No. 3000 record",
+      "source_url": "https://www.noticeregistry.com/arizona/notice/ordinance-gilbert-289683",
+      "verified": true,
+      "baseline_catchup": true
+    },
+    {
+      "id": "LA-BATONROUGE-2026-09-15",
+      "date": "2026-09-15",
+      "jurisdiction": "Baton Rouge",
+      "state": "LA",
+      "operator": "Amazon Prime Air",
+      "category": "Community complaints / safety",
+      "issue_tags": [
+        "noise",
+        "safety",
+        "flight frequency",
+        "contingent landing",
+        "community concern"
+      ],
+      "title": "Baton Rouge residents report noise and safety concerns as Prime Air flights increase",
+      "summary": "Residents near Amazon's Baton Rouge operation reported repeated drone noise and safety concerns after an MK30 made a controlled contingent landing in a Florida Boulevard median. Amazon described the landing as a proactive safety procedure used when a drone determines it is safer to land than return to base.",
+      "status": "Active community concern",
+      "source_type": "Local reporting",
+      "source_name": "WBRZ",
+      "source_url": "https://d3nqdp0e3r32g8.cloudfront.net/news/baton-rouge-residents-raise-noise-and-safety-concerns-as-amazon-drone-flights-increase",
+      "verified": true,
+      "baseline_catchup": true
+    },
+    {
+      "id": "TX-ZIPLINE-DRAFT-EA-2026-09-11",
+      "date": "2026-09-11",
+      "jurisdiction": "Houston, San Antonio, Austin, Amarillo and El Paso metropolitan areas",
+      "state": "TX",
+      "operator": "Zipline",
+      "category": "FAA / NEPA",
+      "issue_tags": [
+        "FAA",
+        "NEPA",
+        "draft environmental assessment",
+        "public comment",
+        "24-hour operations",
+        "scale"
+      ],
+      "title": "FAA opens public comment on major Zipline Texas expansion",
+      "summary": "FAA published a Draft Environmental Assessment for proposed Zipline Platform 2 package-delivery operations across five Texas metropolitan areas. The proposal contemplates 24/7 operations, with up to 1,000 deliveries per day from each Charger; the public-comment period runs through October 11, 2026.",
+      "status": "Draft EA; public comment open through October 11, 2026",
+      "source_type": "Federal agency",
+      "source_name": "FAA Drone Operations Environmental Review",
+      "source_url": "https://www.faa.gov/uas/advanced_operations/nepa_and_drones",
+      "verified": true,
+      "baseline_catchup": true
+    },
+    {
+      "id": "NE-OMAHA-AMAZON-2026-09-09",
+      "date": "2026-09-09",
+      "jurisdiction": "Omaha metropolitan area / Papillion",
+      "state": "NE",
+      "operator": "Amazon Prime Air",
+      "category": "FAA / NEPA",
+      "issue_tags": [
+        "FAA",
+        "NEPA",
+        "FONSI",
+        "PADDC",
+        "1,000 flights per day"
+      ],
+      "title": "FAA completes environmental review for Omaha-area Prime Air center",
+      "summary": "FAA signed a FONSI/Record of Decision for an Omaha-area Prime Air Drone Delivery Center. The reviewed operation uses the MK30 and allows up to 1,000 delivery flights per operating day between 6:00 a.m. and 10:30 p.m.",
+      "status": "FAA environmental review completed",
+      "source_type": "Federal agency",
+      "source_name": "FAA Drone Operations Environmental Review",
+      "source_url": "https://www.faa.gov/uas/advanced_operations/nepa_and_drones",
+      "verified": true,
+      "baseline_catchup": true
+    },
+    {
+      "id": "TX-RICHARDSON-2026-09-25",
+      "date": "2026-09-25",
+      "jurisdiction": "Richardson",
+      "state": "TX",
+      "operator": "Amazon Prime Air",
+      "category": "Community complaints",
+      "issue_tags": [
+        "noise",
+        "flight frequency",
+        "flight concentration",
+        "privacy",
+        "quality of life"
+      ],
+      "title": "Richardson noise complaints intensify as residents document frequent Prime Air overflights",
+      "summary": "Residents near the Richardson Prime Air facility reported frequent and disruptive overflights, including concentrated 'drone highway' patterns. City leaders have addressed concerns publicly and maintain a resource page directing residents to complaint channels; Amazon says noise-related inquiries remain a small share of Prime Air feedback.",
+      "status": "Active community concern; prior mitigations have not ended complaints",
+      "source_type": "Local reporting",
+      "source_name": "CBS Texas",
+      "source_url": "https://www.cbsnews.com/texas/news/amazon-prime-drone-delivery-service-complaints-richardson-texas/",
       "verified": true
     }
   ]
