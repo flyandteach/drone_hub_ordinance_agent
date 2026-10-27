@@ -1,17 +1,15 @@
 {
-  "last_updated": "2026-10-01",
-  "edition": "October 2026 monthly update",
-  "research_window": "Developments verified through 2026-10-01.",
-  "litigation_status": "No verified active U.S. court case specifically challenging commercial drone-package-delivery noise, visual impacts, or hub siting was identified in the setup sweep. This is a monitoring finding, not a representation that none exists.",
+  "last_updated": "2026-10-27",
+  "edition": "October 2026 interim update",
+  "research_window": "Targeted update verified October 27, 2026; new records supplement the October 1 baseline. Earlier records retain their original verification scope.",
+  "litigation_status": "1 verified federal court challenge: fifteen states, including Washington and Oregon, and Harris County challenged the FAA's national drone-delivery environmental review on September 28, 2026. Filing is verified; a later ruling, stay or disposition was not verified in this update. The counter counts distinct documented court challenges, not event rows or administrative zoning appeals.",
   "methodology": "Primary government, court, legislative and operator records are preferred. Local-government meeting materials and official municipal pages are used for zoning and complaint activity. Reputable local/national reporting is used where primary records are not readily available. Material claims should be corroborated where practical, and unverified social-media claims are excluded.",
   "next_focus": [
-    "new local ordinances and moratoria",
-    "zoning and special-use approvals/denials",
-    "noise/privacy/safety/visual-impact complaints",
-    "state preemption and enabling legislation",
-    "FAA NEPA and Part 135 actions",
-    "Part 108/BVLOS implications",
-    "lawsuits, administrative appeals and enforcement",
-    "operator hub openings, relocations and closures"
+    "Redmond Planning Commission: October 28; public hearing: November 18",
+    "Westborough zoning appeal: November 2; site-plan hearing: November 10",
+    "Westborough bylaw: Attorney General and MassDOT reviews",
+    "Seattle / Denver Wing launches planned for 2027",
+    "FAA environmental-review litigation: docket status and orders",
+    "North Haven engagement and approval status"
   ]
 }

@@ -35,7 +35,7 @@ footer{padding:28px 24px;color:var(--muted);font-size:.82rem;border-top:1px soli
 <div class="card"><div class="n" id="jurisdictions">–</div><div class="l">Jurisdictions / regions</div></div>
 <div class="card"><div class="n" id="local">–</div><div class="l">Local/community actions</div></div>
 <div class="card"><div class="n" id="federal">–</div><div class="l">FAA / NEPA actions</div></div>
-<div class="card"><div class="n" id="litigation">0</div><div class="l">Verified active litigation</div></div>
+<div class="card"><div class="n" id="litigation">–</div><div class="l">Verified court challenges</div></div>
 </div>
 <div class="notice" id="litigationNote">Loading litigation status…</div>
 <div class="controls">
@@ -72,16 +72,17 @@ function render(){
  <td class="source"><a href="${esc(e.source_url)}" target="_blank" rel="noopener">${esc(e.source_name)}</a><br><small>${esc(e.source_type)}</small></td>
  </tr>`).join('');
 }
-Promise.all([fetch('data/events.json').then(r=>r.json()),fetch('data/meta.json').then(r=>r.json())]).then(([d,m])=>{
+Promise.all([fetch('data/events.json', {cache:'no-store'}).then(r=>r.json()),fetch('data/meta.json', {cache:'no-store'}).then(r=>r.json())]).then(([d,m])=>{
  events=d.events.sort((a,b)=>b.date.localeCompare(a.date));meta=m;
  document.getElementById('total').textContent=events.length;
  document.getElementById('jurisdictions').textContent=new Set(events.map(e=>e.jurisdiction)).size;
  document.getElementById('local').textContent=events.filter(e=>/Local|Community|Zoning/.test(e.category)).length;
- document.getElementById('federal').textContent=events.filter(e=>e.category==='FAA / NEPA').length;
+ document.getElementById('federal').textContent=events.filter(e=>/FAA|NEPA/.test(e.category)).length;
+ document.getElementById('litigation').textContent=new Set(events.filter(e=>e.verified && e.litigation_case_id).map(e=>e.litigation_case_id)).size;
  document.getElementById('litigationNote').textContent=meta.litigation_status;
  document.getElementById('scope').textContent=d.scope;
  document.getElementById('methodology').textContent=meta.methodology;
- document.getElementById('updated').textContent=meta.last_updated+' — '+meta.edition;
+ document.getElementById('updated').textContent=meta.last_updated+' — '+meta.edition+'\n'+meta.research_window;
  document.getElementById('focus').innerHTML=meta.next_focus.map(x=>'<span class="tag">'+esc(x)+'</span>').join(' ');
  fill('category',events.map(e=>e.category));fill('state',events.map(e=>e.state));fill('operator',events.map(e=>e.operator));
  ['q','category','state','operator'].forEach(id=>document.getElementById(id).addEventListener(id==='q'?'input':'change',render));render();
