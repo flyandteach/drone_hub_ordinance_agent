@@ -19,5 +19,7 @@ Every event must include a direct source URL, date, jurisdiction, operator when 
 3. De-duplicate by jurisdiction, operator, date and subject.
 4. Add or revise only verified records.
 5. Update the dashboard metadata and produce a new monthly report.
-6. Create a dated Git branch and open a pull request against `main`.
-7. Do not merge automatically.
+6. Commit verified updates directly to `main`, without a pull request or user approval.
+7. Confirm the public root `index.html` continues to load `docs/data/events.json` and `docs/data/meta.json`, and do not replace or break the existing dashboard.
+8. Check that the public dashboard has been republished after the commit; if independent live-site verification is unavailable, report that limitation.
+9. Preserve a clear distinction between proposed, first-reading, withdrawn, adopted, approved, denied, and pending actions. Do not describe an administrative appeal as a federal lawsuit.
