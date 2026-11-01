@@ -1,15 +1,19 @@
 {
-  "last_updated": "2026-10-27",
-  "edition": "October 2026 interim update",
-  "research_window": "Targeted update verified October 27, 2026; new records supplement the October 1 baseline. Earlier records retain their original verification scope.",
-  "litigation_status": "1 verified federal court challenge: fifteen states, including Washington and Oregon, and Harris County challenged the FAA's national drone-delivery environmental review on September 28, 2026. Filing is verified; a later ruling, stay or disposition was not verified in this update. The counter counts distinct documented court challenges, not event rows or administrative zoning appeals.",
-  "methodology": "Primary government, court, legislative and operator records are preferred. Local-government meeting materials and official municipal pages are used for zoning and complaint activity. Reputable local/national reporting is used where primary records are not readily available. Material claims should be corroborated where practical, and unverified social-media claims are excluded.",
+  "last_updated": "2026-11-01",
+  "edition": "November 2026 monthly monitoring edition (October developments)",
+  "research_window": "October 1–31, 2026; research verified November 1, 2026. Historical entries remain in the cumulative database.",
+  "litigation_status": "One verified federal appellate petition challenges the FAA's July 28 national drone-delivery PEA/FONSI/ROD (filed September 28, 2026, by fifteen states and Harris County). No later ruling or stay was verified in this sweep. The Westborough zoning appeal is an administrative local appeal, not a separate federal court challenge.",
+  "methodology": "Targeted monthly source sweep of FAA environmental-review records, federal rulemaking, municipal announcements and meeting records, state and local reporting, and court-challenge coverage. Prefer primary government/court records, then direct local reporting. Track each documented development, not every affected municipality or every public comment. Absence of a record is not proof of no complaints or litigation. Separate proposed, first-read, withdrawn, and adopted local measures; do not infer a permit denial from a bill that failed for lack of a motion.",
   "next_focus": [
-    "Redmond Planning Commission: October 28; public hearing: November 18",
-    "Westborough zoning appeal: November 2; site-plan hearing: November 10",
-    "Westborough bylaw: Attorney General and MassDOT reviews",
-    "Seattle / Denver Wing launches planned for 2027",
-    "FAA environmental-review litigation: docket status and orders",
-    "North Haven engagement and approval status"
+    "Westborough, MA: November 2 zoning appeal; November 10 site-plan hearing; Attorney General and MassDOT bylaw review",
+    "Wentzville, MO: November 4 second consideration of drone-delivery conditional-use bill",
+    "Kirkwood, MO: any renewed Wing/Walmart special-use application after October 15 non-advancement",
+    "Belvedere, CA: whether withdrawn drone ordinance returns and whether Marin jurisdictions coordinate",
+    "Redmond, WA: November 18 Planning Commission public hearing; permanent code still draft",
+    "Zipline Texas Draft EA: October 11 comment period closed; monitor FAA decision",
+    "Second Circuit petition challenging FAA national drone-delivery PEA: docket/orders and any stay",
+    "Part 108 BVLOS: OIRA review and final Federal Register publication",
+    "Tracy, CA: any Prime Air permit or documented town-hall outcome",
+    "North Haven, CT: community meetings and operational-pause status"
   ]
 }
