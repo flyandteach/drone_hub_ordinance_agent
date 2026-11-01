@@ -1,7 +1,30 @@
 {
-  "generated": "2026-10-27",
+  "generated": "2026-11-01",
   "scope": "United States commercial drone package delivery, drone hubs/ports/PADDCs, community impacts, local land-use actions, state law, FAA/NEPA actions, litigation and administrative challenges.",
   "events": [
+    {
+      "id": "US-PART108-2026-10-29",
+      "date": "2026-10-29",
+      "jurisdiction": "United States",
+      "state": "US",
+      "operator": "Multiple",
+      "category": "FAA / rulemaking",
+      "title": "Part 108 BVLOS final rule remains under OIRA review in late October",
+      "summary": "The federal OIRA regulatory-review dashboard continued to list FAA RIN 2120-AL82, Normalizing Unmanned Aircraft Systems Beyond Visual Line of Sight Operations, as Pending Review, received July 10, 2026. No final Part 108 rule was identified as published by the October 29 check; proposed authority is not yet effective.",
+      "status": "Final-rule review pending; not yet in effect",
+      "source_name": "Office of Information and Regulatory Affairs (reginfo.gov)",
+      "source_url": "https://www.reginfo.gov/public/jsp/EO/eoListingChart.jsp",
+      "source_type": "Federal regulatory register",
+      "issue_tags": [
+        "Part 108",
+        "BVLOS",
+        "rulemaking",
+        "FAA",
+        "OIRA"
+      ],
+      "verified": true,
+      "verified_on": "2026-11-01"
+    },
     {
       "id": "NC-CHARLOTTE-2026-10-25",
       "date": "2026-10-25",
@@ -22,6 +45,52 @@
       ],
       "verified": true,
       "verified_on": "2026-10-27"
+    },
+    {
+      "id": "CA-TRACY-2026-10-22",
+      "date": "2026-10-22",
+      "jurisdiction": "Tracy",
+      "state": "CA",
+      "operator": "Amazon Prime Air",
+      "category": "Community engagement / proposed facility",
+      "title": "Tracy hosts public town hall on proposed Prime Air delivery service",
+      "summary": "The City of Tracy scheduled an October 22 public town hall with Amazon Prime Air representatives to discuss a proposed drone-delivery program and receive resident questions and feedback. The city announcement does not establish that operations have begun or that a permit has been approved.",
+      "status": "Public town hall scheduled for October 22; project proposed",
+      "source_name": "City of Tracy",
+      "source_url": "https://www.cityoftracy.org/I-Want-To/View/City-Calendar/2026/Events-Folder/Tracy-Community-Town-Hall-Amazon-Drone-Delivery",
+      "source_type": "Municipal government",
+      "issue_tags": [
+        "community engagement",
+        "public meeting",
+        "proposed service",
+        "Amazon"
+      ],
+      "verified": true,
+      "verified_on": "2026-11-01"
+    },
+    {
+      "id": "MO-WENTZVILLE-2026-10-21",
+      "date": "2026-10-21",
+      "jurisdiction": "Wentzville",
+      "state": "MO",
+      "operator": "Wing / Walmart (proposal context)",
+      "category": "Local ordinance / zoning",
+      "title": "Wentzville gives first reading to drone-delivery conditional-use regulations",
+      "summary": "The Board of Aldermen gave first-reading approval to a proposed ordinance requiring conditional-use permits, FAA authorization, insurance, and noise testing at launch sites and nearby residences for drone-delivery facilities. It is not a final adopted ordinance, and no Wing facility was approved by this action.",
+      "status": "First reading only; further consideration expected",
+      "source_name": "First Alert 4 (reporting mayor's confirmation)",
+      "source_url": "https://www.firstalert4.com/2026/10/22/wentzville-considers-new-rules-drone-delivery-sites/",
+      "source_type": "Local reporting / municipal official statement",
+      "issue_tags": [
+        "conditional use",
+        "noise study",
+        "zoning",
+        "insurance",
+        "FAA authorization",
+        "draft ordinance"
+      ],
+      "verified": true,
+      "verified_on": "2026-11-01"
     },
     {
       "id": "WA-REDMOND-2026-10-21",
@@ -68,6 +137,31 @@
       "verified_on": "2026-10-27"
     },
     {
+      "id": "MO-KIRKWOOD-2026-10-15",
+      "date": "2026-10-15",
+      "jurisdiction": "Kirkwood",
+      "state": "MO",
+      "operator": "Wing / Walmart",
+      "category": "Local permit / non-approval",
+      "title": "Kirkwood Wing/Walmart special-use permit fails to advance for lack of council motion",
+      "summary": "At the October 15 City Council meeting, no council member moved to advance the proposed special-use permit for a Wing drone-delivery facility at the Walmart at 1202 S. Kirkwood Road. The permit did not advance following resident testimony about noise, privacy, and wildlife. Reporting conflicts on whether there was a vote; contemporaneous KMOX reporting states no motion was made, so this is not coded as a recorded unanimous denial.",
+      "status": "Permit did not advance; no motion made",
+      "source_name": "KMOX / Audacy (October 16, 2026)",
+      "source_url": "https://www.audacy.com/kmox/news/local/walmart-drone-delivery-dead-in-kirkwood",
+      "source_type": "Local reporting corroborated by municipal application record",
+      "issue_tags": [
+        "special-use permit",
+        "non-approval",
+        "noise",
+        "privacy",
+        "wildlife",
+        "public testimony"
+      ],
+      "verified": true,
+      "verified_on": "2026-11-01",
+      "secondary_source_url": "https://www.kirkwoodmo.org/Home/Components/Calendar/Event/15930/"
+    },
+    {
       "id": "MA-WESTBORO-FED-2026-10-14",
       "date": "2026-10-14",
       "jurisdiction": "Westborough area",
@@ -87,6 +181,30 @@
       ],
       "verified": true,
       "verified_on": "2026-10-27"
+    },
+    {
+      "id": "CA-BELVEDERE-2026-10-12",
+      "date": "2026-10-12",
+      "jurisdiction": "Belvedere",
+      "state": "CA",
+      "operator": "Multiple",
+      "category": "Local ordinance / zoning",
+      "title": "Belvedere withdraws commercial drone-delivery ordinance before final adoption",
+      "summary": "After a 3–2 first-reading vote in September, the mayor withdrew the proposed drone-delivery ordinance's second reading at the October 12 council meeting amid resident opposition. Council took comments but did not vote; the city is exploring coordination with other Marin communities. The ordinance was not adopted.",
+      "status": "Second reading withdrawn; ordinance not adopted",
+      "source_name": "The Ark (Belvedere/Tiburon local reporting)",
+      "source_url": "https://www.thearknewspaper.com/live/belvedere-shelves-rules-for-drone-deliveries-after-resident-backlash",
+      "source_type": "Local reporting",
+      "issue_tags": [
+        "ordinance withdrawn",
+        "public opposition",
+        "noise",
+        "privacy",
+        "regional coordination",
+        "zoning"
+      ],
+      "verified": true,
+      "verified_on": "2026-11-01"
     },
     {
       "id": "TX-ZIPLINE-2026-10-09",
@@ -110,6 +228,27 @@
       "verified_on": "2026-10-27"
     },
     {
+      "id": "CO-WING-2026-10-05",
+      "date": "2026-10-05",
+      "jurisdiction": "Denver metropolitan area",
+      "state": "CO",
+      "operator": "Wing",
+      "category": "Industry expansion",
+      "title": "Wing and Walmart announce Denver expansion for 2027",
+      "summary": "Wing announced Denver as an additional planned 2027 market alongside Seattle. These markets contribute to its planned network of more than 270 Walmart locations.",
+      "status": "Announced for 2027",
+      "source_name": "Wing",
+      "source_url": "https://wing.com/news/wing-walmart-new-metros-nations-largest-drone-delivery-network",
+      "source_type": "Company announcement",
+      "issue_tags": [
+        "expansion",
+        "Walmart",
+        "planned service"
+      ],
+      "verified": true,
+      "verified_on": "2026-10-27"
+    },
+    {
       "id": "WA-WING-2026-10-05",
       "date": "2026-10-05",
       "jurisdiction": "Seattle / Puget Sound",
@@ -126,27 +265,6 @@
         "expansion",
         "Walmart",
         "hub siting",
-        "planned service"
-      ],
-      "verified": true,
-      "verified_on": "2026-10-27"
-    },
-    {
-      "id": "CO-WING-2026-10-05",
-      "date": "2026-10-05",
-      "jurisdiction": "Denver metropolitan area",
-      "state": "CO",
-      "operator": "Wing",
-      "category": "Industry expansion",
-      "title": "Wing and Walmart announce Denver expansion for 2027",
-      "summary": "Wing announced Denver as an additional planned 2027 market alongside Seattle. These markets contribute to its planned network of more than 270 Walmart locations.",
-      "status": "Announced for 2027",
-      "source_name": "Wing",
-      "source_url": "https://wing.com/news/wing-walmart-new-metros-nations-largest-drone-delivery-network",
-      "source_type": "Company announcement",
-      "issue_tags": [
-        "expansion",
-        "Walmart",
         "planned service"
       ],
       "verified": true,
@@ -373,12 +491,14 @@
       ],
       "title": "FAA opens public comment on major Zipline Texas expansion",
       "summary": "FAA published a Draft Environmental Assessment for proposed Zipline Platform 2 package-delivery operations across five Texas metropolitan areas. The proposal contemplates 24/7 operations, with up to 1,000 deliveries per day from each Charger; the public-comment period runs through October 11, 2026.",
-      "status": "Draft EA; public comment open through October 11, 2026",
+      "status": "Draft EA comment period closed October 11, 2026; final FAA decision not verified",
       "source_type": "Federal agency",
       "source_name": "FAA Drone Operations Environmental Review",
       "source_url": "https://www.faa.gov/uas/advanced_operations/nepa_and_drones",
       "verified": true,
-      "baseline_catchup": true
+      "baseline_catchup": true,
+      "status_verified_on": "2026-11-01",
+      "status_source_url": "https://www.faa.gov/uas/advanced_operations/nepa_and_drones"
     },
     {
       "id": "NE-OMAHA-AMAZON-2026-09-09",
